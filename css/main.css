@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
-  font: normal 100%/1.5 sans-serif;
+  line-height: 1.5;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -10,4 +11,45 @@ html {
 div {
   padding: .5rem;
   text-align: center;
+}
+
+/* ...... regular buttons ...... */
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 8px;
+  border-width: 3px;
+  padding: .4em .75em .3em;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+.btn-subtle {
+  background-color: #ccc;
+  color: #fff;
+}
+
+.btn-ghost {
+  background-color: #fff;
+  color: #000;
+  border-style: solid;
+}
+
+.btn-warning {
+  background-color: #f33;
+  color: #fff;
+}
+
+/* ...... small buttons ...... */
+
+.btn-small {
+  font-size: .875rem;
+}
+
+/* ...... big buttons ...... */
+
+.btn-big {
+  font-size: 1.5rem;
 }
